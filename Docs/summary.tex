@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage{hyperref}
+\usepackage[style=ieee,backend=biber]{biblatex} % Adăugat pentru bibliografie
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -9,6 +10,8 @@
     urlcolor=blue
 }
 \geometry{margin=0.75in}
+
+\addbibresource{docs/references.bib} % Calea către references.bib
 
 \title{Executive Summary: Russia’s War on Ukraine \\ Human Rights and EU-NATO Silence}
 \author{Teodor Berger}
@@ -28,20 +31,20 @@ This report, \textit{Russia’s War on Ukraine: Human Rights and EU-NATO Silence
 
 \section*{Key Findings}
 \begin{itemize}
-    \item \textbf{Human Rights Violations}: Russia’s deliberate attacks on civilians, forced deportations of children, and use of prohibited weapons constitute war crimes and crimes against humanity, as documented by the UN, Amnesty International, and Human Rights Watch.
-    \item \textbf{Geopolitical Breaches}: Russia violates international agreements, including the UN Charter, Geneva Conventions, and Budapest Memorandum, undermining global legal norms.
-    \item \textbf{Human and Global Impact}: Over 9,000 civilian deaths, 8 million refugees, and \$400 billion in infrastructure damage by mid-2023. The war disrupts global food and energy markets, exacerbating insecurity.
-    \item \textbf{International Response}: NATO and EU provide significant aid but hesitate to escalate due to nuclear fears, enabling Russia’s aggression. Civil society plays a critical role in humanitarian support.
+    \item \textbf{Human Rights Violations}: Russia’s deliberate attacks on civilians, forced deportations of children, and use of prohibited weapons constitute war crimes and crimes against humanity, as documented by the UN, Amnesty International, and Human Rights Watch \cite{un_2023, amnesty_2022, hrw_2023}.
+    \item \textbf{Geopolitical Breaches}: Russia violates international agreements, including the UN Charter, Geneva Conventions, and Budapest Memorandum, undermining global legal norms \cite{un_charter, geneva_1949, budapest_1994}.
+    \item \textbf{Human and Global Impact}: Over 9,000 civilian deaths, 8 million refugees, and \$400 billion in infrastructure damage by mid-2023. The war disrupts global food and energy markets, exacerbating insecurity \cite{un_2023, unhcr_2023, world_bank_2023}.
+    \item \textbf{International Response}: NATO and EU provide significant aid but hesitate to escalate due to nuclear fears, enabling Russia’s aggression. Civil society plays a critical role in humanitarian support \cite{osce_2023, unhcr_2023}.
 \end{itemize}
 
 \section*{Call to Action}
 The report proposes a \textit{Manifesto for Action}, urging:
 \begin{itemize}
-    \item An international tribunal to prosecute Russian war crimes.
-    \item Coordinated diplomatic pressure to isolate Russia.
-    \item Expanded humanitarian and military aid to Ukraine.
-    \item Independent monitoring of occupied territories.
-    \item Sustainable reconstruction for Ukraine’s future.
+    \item An international tribunal to prosecute Russian war crimes \cite{icc_2023}.
+    \item Coordinated diplomatic pressure to isolate Russia \cite{un_charter}.
+    \item Expanded humanitarian and military aid to Ukraine \cite{unhcr_2023}.
+    \item Independent monitoring of occupied territories \cite{osce_2023}.
+    \item Sustainable reconstruction for Ukraine’s future \cite{world_bank_2023, eco_impact_2023}.
 \end{itemize}
 
 \section*{Dedication}
@@ -50,5 +53,7 @@ This work is dedicated to Ukraine’s victims and the global community standing 
 \vspace{0.5em}
 \noindent \textit{Full report available at:} \\
 \url{https://github.com/DonMask/Human_Rights_Violations_Committed_by_the_Russian_Federation_in_the_Russo_Ukrainian_War}
+
+\printbibliography % Adăugat pentru a afișa bibliografia
 
 \end{document}
