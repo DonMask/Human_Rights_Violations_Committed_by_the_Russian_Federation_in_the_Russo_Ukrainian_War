@@ -1,0 +1,15 @@
+all: pdf summary
+
+pdf:
+	pdflatex docs/main.tex
+	biber docs/main
+	pdflatex docs/main.tex
+	pdflatex docs/main.tex
+	mv docs/main.pdf docs/output.pdf
+
+summary:
+	pdflatex docs/summary.tex
+	mv docs/summary.pdf docs/summary.pdf
+
+clean:
+	rm -f docs/*.aux docs/*.bbl docs/*.bcf docs/*.blg docs/*.log docs/*.out docs/*.run.xml
