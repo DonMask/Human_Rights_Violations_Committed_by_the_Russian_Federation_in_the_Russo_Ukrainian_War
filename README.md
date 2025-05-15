@@ -56,7 +56,7 @@ make clean
 - **Downloads**:
   - Full report: `output.pdf`
   - Executive summary: `summary.pdf`
-- **Zenodo**: DOI pending (to be assigned upon publication).
+- **Zenodo**: DOI • https://doi.org/10.5281/zenodo.15427314
 
 ## Distribution
 - Share `output.pdf` or `summary.pdf` via social media, email, or academic platforms to amplify impact.
