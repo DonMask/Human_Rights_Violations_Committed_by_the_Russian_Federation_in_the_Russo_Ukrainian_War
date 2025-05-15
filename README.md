@@ -85,4 +85,3 @@ For inquiries, open a GitHub Issue or email: **bergerteodor@googlemail.com**
 
 ## Acknowledgments
 This project is dedicated to the victims of the Russo-Ukrainian War and the global community standing in solidarity with Ukraine.  
-Special thanks to **Teodor Berger** for leading this initiative.
