@@ -77,7 +77,7 @@ This project is licensed under the **Creative Commons Attribution 4.0 Internatio
 
 ## Publication
 - **GitHub**: Published as of May 15, 2025, at [DonMask/Human_Rights_Violations_Committed_by_the_Russian_Federation_in_the_Russo_Ukrainian_War](https://github.com/DonMask/Human_Rights_Violations_Committed_by_the_Russian_Federation_in_the_Russo_Ukrainian_War).
-- **Zenodo**: A DOI will be generated for long-term archiving (pending upload).
+- **Zenodo**: (https://doi.org/10.5281/zenodo.15427314)
 - The report is ready for academic, activist, and public distribution.
 
 ## Contact
